@@ -1,0 +1,41 @@
+# ========================
+# KalaivaniMart .gitignore
+# ========================
+
+# Maven build output
+target/
+*.jar
+*.war
+*.class
+
+# IntelliJ IDEA / VS Code
+.idea/
+*.iml
+.vscode/settings.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tomcat runtime directory (generated, not source)
+tomcat.8080/
+
+# Credentials / secrets
+*.env
+.env
+secrets.properties
+
+# Test cookies / session files (ephemeral)
+cookies.txt
+
+# Log files
+*.log
+logs/
+
+# Node (if any frontend tooling added later)
+node_modules/
