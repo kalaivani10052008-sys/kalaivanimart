@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "KalaivaniMart - Run Server",
+            "request": "launch",
+            "mainClass": "com.kalaivanimart.Main",
+            "projectName": "kalaivanimart",
+            "env": {
+                "PORT": "8080",
+                "DB_TYPE": "mysql"
+            }
+        }
+    ]
+}
